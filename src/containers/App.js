@@ -35,7 +35,7 @@ class App extends Component {
         else {
             return (
                 <div className="tc robo-domain">
-                    <h1>Mostro Rally</h1>
+                    <h1>Humanoids</h1>
                     <SearchBox searchChange={this.onSearchChange} />
                     <Scroll>
                         <ErrorBoundary>

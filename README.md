@@ -1,3 +1,14 @@
+The following React Project fetches data from 2 apis:-
+
+a) A fake JSON from which the names and other details can be fetched.
+b) And, the other is the robohash.org which fethches the images.
+
+<img width="780" alt="3 Humanoids" src="https://user-images.githubusercontent.com/41067454/167287246-133141a4-ae54-49f8-8bce-4dfbcfe3871e.png">
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

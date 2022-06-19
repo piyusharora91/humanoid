@@ -33,7 +33,7 @@ div.robo-name {
 @media screen and (min-height: 450px) {
 
   .navbar {
-    height: 27vh;
+    height: max-content;
   }
 
   .bot-container-scroll {

@@ -11,6 +11,14 @@ body {
   overflow: hidden;
 }
 
+.navbar {
+  height: 15vh;
+}
+
+.bot-container-scroll {
+  height: 85vh;
+}
+
 div.bot-container {
   display: flex;
   justify-content: center;
@@ -20,4 +28,15 @@ div.bot-container {
 div.robo-name {
   height: 400px;
   width: 330px;
+}
+
+@media screen and (min-height: 450px) {
+
+  .navbar {
+    height: 27vh;
+  }
+
+  .bot-container-scroll {
+    height: 72vh;
+  }
 }

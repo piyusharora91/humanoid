@@ -31,8 +31,10 @@ const App = () => {
         console.log(robots);
         return (
             <div className="tc robo-domain">
-                <h1>Humanoids</h1>
-                <SearchBox searchChange={onSearchChange} />
+                <div className="navbar">
+                    <h1>Humanoids</h1>
+                    <SearchBox searchChange={onSearchChange} />
+                </div>
                 <Scroll>
                     <ErrorBoundary>
                         <Cardlist robots={filteredRobots} />

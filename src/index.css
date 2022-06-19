@@ -37,6 +37,6 @@ div.robo-name {
   }
 
   .bot-container-scroll {
-    height: 72vh;
+    height: max-content;
   }
 }

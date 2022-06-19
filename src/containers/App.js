@@ -21,13 +21,14 @@ const App = () => {
     }
 
     const filteredRobots = robots.filter(robot => {
-        return robot.name.toLowerCase().includes(searchFields.toLowerCase());
+        return robot.username.toLowerCase().includes(searchFields.toLowerCase());
     });
 
     if (!robots.length) {
         return <h1>LOADING....</h1>
     }
     else {
+        console.log(robots);
         return (
             <div className="tc robo-domain">
                 <h1>Humanoids</h1>

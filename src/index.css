@@ -6,7 +6,18 @@ body {
   background-image: linear-gradient(to left, green 40%, blue);
 }
 
-div.robo-name{
-  height:400px;
+.robo-domain {
+  height: 100vh;
+  overflow: hidden;
+}
+
+div.bot-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.robo-name {
+  height: 400px;
   width: 330px;
 }

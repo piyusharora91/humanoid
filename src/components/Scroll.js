@@ -1,7 +1,7 @@
 import React from 'react';
 const Scroll = (props) => {
     return (
-        <div className='bot-container-scroll' style={{ overflow: 'scroll', border: '5px solid black' }}>
+        <div className='bot-container-scroll'>
             {props.children}
         </div>);
 }

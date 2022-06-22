@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,18 +8,24 @@ body {
   background-image: linear-gradient(to left, green 40%, blue);
 }
 
+
+#title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.2em;
+  margin: 15px 0px 5px 0px;
+  padding: 0;
+  color: #A1E2D0;
+}
+
 .robo-domain {
   height: 100vh;
   overflow: hidden;
 }
 
 .navbar {
-  height: 15vh;
+  height: max-content;
 }
 
-.bot-container-scroll {
-  height: 85vh;
-}
 
 div.bot-container {
   display: flex;
@@ -25,15 +33,32 @@ div.bot-container {
   flex-wrap: wrap;
 }
 
+div.bot-container-scroll {
+  height: calc(100vh - 185px);
+  overflow: scroll;
+  border: 5px solid black;
+}
+
 div.robo-name {
-  height: 400px;
+  height: auto;
   width: 330px;
 }
 
-@media screen and (min-height: 450px) {
+@media screen and (max-width: 350px) {
 
+
+  #title {
+    font-size: 65px;
+  }
+}
+
+
+@media screen and (max-height: 670px) {
   .navbar {
-    height: max-content;
+    height: 190px;
   }
 
+  /* div.bot-container-scroll {
+    height: 450px;
+  } */
 }

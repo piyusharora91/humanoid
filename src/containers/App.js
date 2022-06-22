@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Cardlist from "../components/Cardlist";
 import SearchBox from '../components/SearchBox';
-import './App.css';
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary'
 
@@ -32,7 +31,7 @@ const App = () => {
         return (
             <div className="tc robo-domain">
                 <div className="navbar">
-                    <h1>Humanoids</h1>
+                    <h1 id='title'>Humanoids</h1>
                     <SearchBox searchChange={onSearchChange} />
                 </div>
                 <Scroll>

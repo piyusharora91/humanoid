@@ -26,7 +26,6 @@ body {
   height: max-content;
 }
 
-
 div.bot-container {
   display: flex;
   justify-content: center;
@@ -34,7 +33,7 @@ div.bot-container {
 }
 
 div.bot-container-scroll {
-  height: calc(100vh - 185px);
+  height: calc(100vh - 191px);
   overflow: scroll;
   border: 5px solid black;
 }
@@ -58,7 +57,7 @@ div.robo-name {
     height: 190px;
   }
 
-  /* div.bot-container-scroll {
-    height: 450px;
-  } */
+  div.bot-container-scroll {
+    height: calc(100vh - 205px);
+  }
 }

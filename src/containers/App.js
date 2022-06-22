@@ -27,7 +27,6 @@ const App = () => {
         return <h1>LOADING....</h1>
     }
     else {
-        console.log(robots);
         return (
             <div className="tc robo-domain">
                 <div className="navbar">
